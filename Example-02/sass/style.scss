@@ -1,0 +1,44 @@
+// Reset
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+body {
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+.offer {
+  background: url(../bg_special.png) no-repeat left top;
+  color: #fff;
+  width: 100%;
+  padding: 80px 0 60px;
+  text-align: center;
+  & h2 {
+    font-weight: normal;
+    margin-bottom: 30px;
+  }
+  &--info {
+    margin-bottom: 30px;
+  }
+  &--btn a {
+    padding: 17px 15px;
+    background: linear-gradient(to bottom, #e4553f 5%, #d83f2e 100%);
+    display: inline-block;
+    border-radius: 4px;
+    border: 0.5px solid #94291c;
+    cursor: pointer;
+    opacity: 1;
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 0px 1px 0px #854629;
+    box-shadow: inset 0px 0px 0px 0px #cf866c;
+    transition: all 0.3s;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
